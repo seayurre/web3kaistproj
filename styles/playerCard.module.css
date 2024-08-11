@@ -1,0 +1,40 @@
+.card {
+    width: 250px;
+    border: 1px solid black;
+    flex-direction: column;
+    border-radius: 6px;
+}
+
+.cardImg {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-image: url("../ohtani.jpg");
+    background-position: 50%;
+    background-size: 150%;
+    height: 250px;
+    display: flex;
+}
+
+.cardHead {
+    vertical-align: middle;
+    text-align: center;
+    height: 30px;
+    background-color: #005A9C;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.cardMain {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: white;
+    height: 50px;
+    color: black;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.cardFooter {
+    height: 50px;
+    background-color: thistle;
+}

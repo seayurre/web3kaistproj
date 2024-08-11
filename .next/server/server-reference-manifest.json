@@ -1,22 +1,5 @@
 {
-  "node": {
-    "734b796d7df8adb362f37097a485cd0df3f4ae8d": {
-      "workers": {
-        "app/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fseayul%2FDesktop%2Fweb3kaistproj%2Fserver%2Fipfs.tsx%22%2C%5B%22uploadImage%22%2C%22uploadMetadata%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/admin/page": "action-browser"
-      }
-    },
-    "a13ba64a0bed50f9169bdf0c841de0e9e56969a1": {
-      "workers": {
-        "app/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fseayul%2FDesktop%2Fweb3kaistproj%2Fserver%2Fipfs.tsx%22%2C%5B%22uploadImage%22%2C%22uploadMetadata%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/admin/page": "action-browser"
-      }
-    }
-  },
+  "node": {},
   "edge": {},
-  "encryptionKey": "WRM4CKOPvtx7HgjX5IK5fhpHgjiNusg05IjyCznEAx4="
+  "encryptionKey": "r0PO87jElfKpCAV4SjhR34JG9H3Qm9kC86cPD9d1mHo="
 }
