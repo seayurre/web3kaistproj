@@ -5,6 +5,7 @@ import { create } from 'zustand';
 type GlobalState = {
     account: `0x${string}` | null; //주소
     userLoading: boolean; //로딩 중인지
+    myPrice?: number;
     collapsed: boolean;
 };
 
