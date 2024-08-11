@@ -1,12 +1,12 @@
-import styles from "../styles/playerCard.module.css";
+import styles from "../styles/hitterCard.module.css";
 
-interface PlayerData {
+interface HitterData {
     name: string;
     AVG: string;
     SLG: string
 }
 
-export default function playerCard({ name, AVG, SLG }: PlayerData) {
+export default function hitterCard({ name, AVG, SLG }: HitterData) {
     return (<>
         <div className={styles.card}>
             <div className={styles.cardImg}>

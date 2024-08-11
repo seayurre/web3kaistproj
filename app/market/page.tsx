@@ -4,10 +4,10 @@ import HitterCard from "../../components/hitterCard";
 import PitcherCard from "../../components/pitcherCard";
 import style from "../../styles/match.module.css";
 
-export default function MatchPage() {
+export default function MarketPage() {
     return <div>
 
-        <h1> Match</h1>
+        <h1> Transfer Market</h1>
         <div className={style.row}>
             <h3>Hitter</h3>
             <HitterCard name="OHTANI SHOHEI" AVG={".300"} SLG={".617"} />
