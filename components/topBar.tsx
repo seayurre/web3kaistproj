@@ -8,7 +8,7 @@ export default function topBar() {
     const { account, connect, disconnect, changeWallet } = walletConnect();
     const setCollapsed = (collapsed: boolean) => useGlobalStore.setState({ collapsed });
     return (
-        <body>
+        <>
             <h1> NFT-Based Advanced Baseball Game </h1>
             <h6> For CS493 Web3 Programming & Business Final Project, made by Seayul Choi(@Seayurre)</h6>
             {account ? (
@@ -45,7 +45,7 @@ export default function topBar() {
 
                 </>
             )}
-
-        </body>
+            <hr></hr>
+        </>
     );
 }

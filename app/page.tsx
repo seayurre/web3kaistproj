@@ -5,7 +5,6 @@ import walletConnect from "../hooks/walletConnect";
 export default function Home() {
     return <div>
 
-        <h1>
-            First Page</h1>
+        <h1> My Team</h1>
     </div>;
 }
